@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DreamSet | Certificate Verification</title>
+<meta name="description" content="DreamSet certificate verification for DREAMSET-CERT-2026-04-07.">
+<style>
+  :root{
+    --gold:#b8922e;
+    --gold-dark:#8a6a1c;
+    --ink:#14161a;
+    --muted:#5d6470;
+    --line:#e6e2d6;
+    --bg:#f6f4ee;
+    --card:#ffffff;
+    --ok:#157347;
+    --ok-bg:#e8f5ee;
+    --ok-line:#b7dfc8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    min-height:100vh;
+    line-height:1.5;
+  }
+  header{
+    background:var(--ink);
+    color:#fff;
+    text-align:center;
+    padding:28px 16px 24px;
+    border-bottom:4px solid var(--gold);
+  }
+  .brand{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:clamp(28px,7vw,40px);
+    font-weight:700;
+    letter-spacing:.5px;
+  }
+  .tagline{
+    font-size:11px;
+    letter-spacing:3px;
+    color:#d9b95b;
+    text-transform:uppercase;
+    margin-top:2px;
+  }
+  .page-title{
+    margin-top:14px;
+    font-size:clamp(16px,4.5vw,20px);
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:#fff;
+  }
+  main{
+    max-width:640px;
+    margin:0 auto;
+    padding:24px 16px 40px;
+  }
+  .badge{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    background:var(--ok-bg);
+    border:2px solid var(--ok-line);
+    color:var(--ok);
+    border-radius:14px;
+    padding:18px 14px;
+    margin-bottom:20px;
+    text-align:center;
+  }
+  .badge .tick{
+    flex:none;
+    width:38px;height:38px;
+    border-radius:50%;
+    background:var(--ok);
+    color:#fff;
+    font-size:22px;
+    font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .badge .text{
+    font-size:clamp(18px,5.4vw,26px);
+    font-weight:800;
+    letter-spacing:1px;
+  }
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    box-shadow:0 2px 10px rgba(20,22,26,.06);
+    overflow:hidden;
+  }
+  .card h2{
+    font-size:13px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--gold-dark);
+    padding:16px 20px;
+    border-bottom:1px solid var(--line);
+    background:#fcfbf7;
+  }
+  dl{display:block}
+  .row{
+    display:grid;
+    grid-template-columns:150px 1fr;
+    gap:12px;
+    padding:14px 20px;
+    border-bottom:1px solid var(--line);
+    align-items:center;
+  }
+  .row:last-child{border-bottom:none}
+  dt{
+    font-size:13px;
+    font-weight:600;
+    color:var(--muted);
+  }
+  dd{
+    font-size:16px;
+    font-weight:600;
+    word-break:break-word;
+  }
+  .status{
+    display:inline-block;
+    background:var(--ok);
+    color:#fff;
+    font-weight:800;
+    letter-spacing:1.5px;
+    font-size:14px;
+    padding:4px 14px;
+    border-radius:999px;
+  }
+  footer{
+    margin-top:24px;
+    text-align:center;
+    font-size:15px;
+    color:var(--muted);
+  }
+  footer .label{font-weight:600;color:var(--ink)}
+  footer a{
+    color:var(--gold-dark);
+    font-weight:600;
+    word-break:break-all;
+  }
+  footer a:hover{text-decoration:underline}
+  @media (max-width:480px){
+    main{padding:18px 12px 32px}
+    .row{grid-template-columns:1fr;gap:2px;padding:12px 16px}
+    .card h2{padding:14px 16px}
+    .badge{padding:16px 10px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">DreamSet</div>
+  <div class="tagline">From Qualification to Career</div>
+  <div class="page-title">Certificate Verification</div>
+</header>
+
+<main>
+  <div class="badge" role="status">
+    <span class="tick" aria-hidden="true">✓</span>
+    <span class="text">CERTIFICATE VERIFIED</span>
+  </div>
+
+  <section class="card" aria-label="Certificate details">
+    <h2>Certificate Details</h2>
+    <dl>
+      <div class="row"><dt>Certificate ID</dt><dd>DREAMSET-CERT-2026-04-07</dd></div>
+      <div class="row"><dt>Name</dt><dd>Rahul Kumar Jha</dd></div>
+      <div class="row"><dt>Program</dt><dd>DreamSet Internship Program</dd></div>
+      <div class="row"><dt>Domain</dt><dd>DevOps</dd></div>
+      <div class="row"><dt>Start Date</dt><dd>13-05-2026</dd></div>
+      <div class="row"><dt>End Date</dt><dd>13-07-2026</dd></div>
+      <div class="row"><dt>Issue Date</dt><dd>17-07-2026</dd></div>
+      <div class="row"><dt>Status</dt><dd><span class="status">VALID</span></dd></div>
+    </dl>
+  </section>
+
+  <footer>
+    <span class="label">Website:</span>
+    <a href="https://dreamset.vercel.app/" target="_blank" rel="noopener noreferrer">https://dreamset.vercel.app/</a>
+  </footer>
+</main>
+
+</body>
+</html>
